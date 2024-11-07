@@ -1,0 +1,16 @@
+name: lidar-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.x        # replace with your preferred Python version (e.g., python=3.9)
+  - pdal
+  - numpy
+  - pandas
+  - geopandas
+  - laspy
+  - jsonschema        # for handling JSON data (if required)
+  - numba             # for JIT compilation
+  - pip
+  - pip:
+      - pdal
+      - jsonschema
