@@ -1,5 +1,5 @@
-# lidar_intensity_correction
-After calculating the range and incidence angle, the initial script (lidar_intenstiy_correction.py) corrects the lidar intensity data per flight line. The corrected intensity is then converted to reflectance and used to calculate grain size (convert_to_grain_size.py).
+# Lidar Intensity Correction
+Tthe initial script (lidar_intenstiy_correction.py) calculates range and incidence angle before correcting the lidar intensity data per flight line. The corrected intensity is then converted to reflectance and used to calculate grain size (convert_to_grain_size.py).
 
 ## Requirements
 
